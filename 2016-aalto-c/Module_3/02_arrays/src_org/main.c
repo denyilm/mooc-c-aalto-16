@@ -5,12 +5,7 @@
 int main()
 {
     /* testing exercise. Feel free to modify */
-    int *array = dyn_reader(12);
-    int n=0;
-    while(n<5){
-        printf("%d",array[n]);
-        n++;
-    }
+    int *array = dyn_reader(5);
    
     array = add_to_array(array, 5, 10);
     array = add_to_array(array, 6, 100);
